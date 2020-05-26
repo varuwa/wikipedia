@@ -1,0 +1,4 @@
+17:20:12.232 [Test worker] INFO  c.w.m.manager.ApplicationManager - Ready!
+17:20:12.264 [Test worker] INFO  com.wikipedia.mobile.tests.TestBase - Start test testAppLaunched with parameters: []
+17:20:12.273 [Test worker] INFO  com.wikipedia.mobile.tests.TestBase - Stop test testAppLaunched
+17:20:12.555 [Test worker] INFO  c.w.m.manager.ApplicationManager - Test finished
