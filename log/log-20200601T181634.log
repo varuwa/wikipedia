@@ -1,0 +1,3 @@
+18:16:46.874 [Test worker] INFO  c.w.m.manager.ApplicationManager - Ready!
+18:16:46.912 [Test worker] INFO  com.wikipedia.mobile.tests.TestBase - Start test addArticleToFavoriteAndDelete with parameters: []
+18:17:17.978 [Test worker] INFO  com.wikipedia.mobile.tests.TestBase - Stop test addArticleToFavoriteAndDelete

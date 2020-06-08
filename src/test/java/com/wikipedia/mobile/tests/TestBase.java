@@ -16,23 +16,11 @@ import java.util.Arrays;
 
 public class TestBase {
 
-    static ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
-
-    Logger logger = LoggerFactory.getLogger(TestBase.class);
+    protected static ApplicationManager app = new ApplicationManager();
 
     @BeforeSuite
     public void setUp() throws IOException {
         app.init();
-    }
-
-    @BeforeMethod
-    public void logTestStart(Method m, Object[] p) {
-        logger.info("Start test " + m.getName() + " with parameters: " + Arrays.asList(p));
-    }
-
-    @AfterMethod
-    public void logTestStop(Method m) {
-        logger.info("Stop test " + m.getName());
     }
 
     @AfterSuite(enabled = false)

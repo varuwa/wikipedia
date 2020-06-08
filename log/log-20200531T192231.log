@@ -1,0 +1,3 @@
+19:22:43.349 [Test worker] INFO  c.w.m.manager.ApplicationManager - Ready!
+19:22:43.388 [Test worker] INFO  com.wikipedia.mobile.tests.TestBase - Start test getTheSizeOfScreen with parameters: []
+19:22:43.397 [Test worker] INFO  com.wikipedia.mobile.tests.TestBase - Stop test getTheSizeOfScreen
